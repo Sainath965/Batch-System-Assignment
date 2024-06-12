@@ -20,7 +20,7 @@ This project contains two HTML and CSS templates: an App Landing Page and a Wait
    cd uifry-templates
 2. **Open the HTML Files:**
 
-   Open index.html for the App Landing Page.
+   Open  `index.html` for the App Landing Page.
    
    Open `waitlist.html` for the Waitlist Signup Page.
 
