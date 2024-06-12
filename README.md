@@ -38,10 +38,15 @@ To change the main header text on the App Landing Page, edit the `<h1>` tag in `
 <h1>Make The Best Financial Decisions</h1>
 
 Contributing
+
 Fork the repository.
+
 Create a new branch.
+
 Make your changes and commit them.
+
 Push to the branch.
+
 Open a pull request.
 
 License
