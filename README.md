@@ -49,7 +49,9 @@ Push to the branch.
 
 Open a pull request.
 
-License
+
+<h2> License </h2>
+
 This project is licensed under the MIT License.
 
 
