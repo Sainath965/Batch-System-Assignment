@@ -32,7 +32,8 @@ Open the HTML files and edit the text inside the tags.
 Change Styles
 Open styles.css and modify the CSS rules.
 Example
-To change the main header text on the App Landing Page, edit the <h1> tag in index.html:
+
+To change the main header text on the App Landing Page, edit the `<h1>` tag in `index.html`:
 
 <h1>Make The Best Financial Decisions</h1>
 
