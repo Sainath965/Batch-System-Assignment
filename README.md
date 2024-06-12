@@ -18,13 +18,16 @@ This project contains two HTML and CSS templates: an App Landing Page and a Wait
    ```bash
    git clone https://github.com/yourusername/uifry-templates.git
    cd uifry-templates
-Open the HTML Files:
+2. **Open the HTML Files:**
 
 Open index.html for the App Landing Page.
-Open waitlist.html for the Waitlist Signup Page.
-Ensure Assets are in Place:
+Open `waitlist.html` for the Waitlist Signup Page.
+
+
+3. **Ensure Assets are in Place:**
 
 Make sure app-screenshot.png is in the same directory as the HTML files.
+
 Update the image paths in the HTML if you use different images.
 Customization
 Change Text
