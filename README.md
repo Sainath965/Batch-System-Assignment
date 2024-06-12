@@ -37,7 +37,7 @@ To change the main header text on the App Landing Page, edit the `<h1>` tag in `
 
 <h1>Make The Best Financial Decisions</h1>
 
-Contributing
+<h2> Contributing </h2>
 
 Fork the repository.
 
