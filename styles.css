@@ -4,28 +4,14 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: #333;
 }
 
 header {
-    text-align: center;
-    padding: 20px;
-    background-color: #fff;
-    border-bottom: 1px solid #eee;
-}
-
-footer {
-    text-align: center;
-    padding: 20px;
-    background: #333;
-    color: #fff;
-}
-
-/* Template 1: App Landing Page Styles */
-.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 20px 10%;
     background-color: #fff;
     border-bottom: 1px solid #eee;
 }
@@ -51,6 +37,7 @@ nav ul li a {
     color: #333;
 }
 
+/* Hero Section */
 .hero {
     text-align: center;
     padding: 50px 20px;
@@ -62,11 +49,6 @@ nav ul li a {
     margin: 0 0 20px;
 }
 
-.hero p {
-    font-size: 18px;
-    margin: 0 0 20px;
-}
-
 .cta-button {
     display: inline-block;
     padding: 10px 20px;
@@ -74,6 +56,7 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
+    margin-top: 20px;
 }
 
 .app-screenshot {
@@ -82,79 +65,142 @@ nav ul li a {
     max-width: 400px;
 }
 
-section {
+/* Premium Section */
+.premium {
     padding: 50px 20px;
+    background: #fff;
+    text-align: center;
 }
 
-h2 {
+.premium h2 {
     font-size: 32px;
     margin-bottom: 20px;
 }
 
-/* Template 2: Waitlist Signup Page Styles */
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    background: #fff;
-    color: #333;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+.feature {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-header h1 {
-    font-size: 28px;
-    margin: 0;
+.feature img {
+    width: 100%;
+    max-width: 200px;
+    margin-right: 20px;
 }
 
-main {
-    padding: 20px 0;
+.feature p {
+    max-width: 600px;
 }
 
-.waitlist {
+/* Features Section */
+.features {
+    padding: 50px 20px;
+    background: #f4f4f4;
     text-align: center;
 }
 
-.waitlist h2 {
+.features h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.features .feature {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.features .feature img {
+    width: 100%;
+    max-width: 200px;
+    margin-right: 20px;
+}
+
+.features .feature p {
+    max-width: 600px;
+}
+
+/* Testimonials Section */
+.testimonials {
+    padding: 50px 20px;
+    background: #fff;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.testimonial {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonial img {
+    width: 100%;
+    max-width: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.testimonial p {
+    max-width: 600px;
+}
+
+/* FAQ Section */
+.faq {
+    padding: 50px 20px;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+.faq h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.faq .question {
+    margin: 20px 0;
+    text-align: left;
+}
+
+.faq .question h3 {
     font-size: 24px;
-    margin-bottom: 20px;
-}
-
-.waitlist form {
-    margin-bottom: 20px;
-}
-
-.waitlist form label {
-    display: block;
-    margin-bottom: 10px;
-    font-size: 16px;
-}
-
-.waitlist form input[type="email"] {
-    padding: 10px;
-    width: calc(100% - 22px);
-    border: 1px solid #ddd;
-    border-radius: 5px;
     margin-bottom: 10px;
 }
 
-.cta-button {
-    display: inline-block;
-    padding: 10px 20px;
+.faq .question p {
+    max-width: 800px;
+}
+
+/* CTA Section */
+.cta {
+    padding: 50px 20px;
     background: #007bff;
+    text-align: center;
     color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
 }
 
-.waitlist ul {
-    list-style: none;
-    padding: 0;
+.cta h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
 }
 
-.waitlist ul li {
-    font-size: 16px;
-    margin: 10px 0;
+.cta .cta-button {
+    background: #fff;
+    color: #007bff;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
 }
