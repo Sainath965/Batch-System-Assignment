@@ -47,6 +47,8 @@ section {
     text-align: center;
     background: white;
     margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 section img {
@@ -59,7 +61,7 @@ section img {
 .premium, .why-choose, .customizable {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     gap: 20px;
     text-align: left;
 }
@@ -72,6 +74,8 @@ section img {
     background: #ff7e5f;
     color: white;
     padding: 50px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .testimonial {
@@ -102,6 +106,7 @@ footer form {
     display: flex;
     justify-content: center;
     gap: 10px;
+    margin-bottom: 20px;
 }
 
 footer input {
@@ -117,4 +122,17 @@ footer button {
     background: #ff7e5f;
     color: white;
     cursor: pointer;
+}
+
+.footer-nav {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.footer-nav a {
+    color: white;
+    text-decoration: none;
 }
