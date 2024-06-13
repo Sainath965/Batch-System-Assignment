@@ -5,6 +5,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     color: #333;
+    background-color: #f4f4f4; 
 }
 
 header {
@@ -12,13 +13,14 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px 10%;
-    background-color: #fff;
+    background-color: #ffffff; 
     border-bottom: 1px solid #eee;
 }
 
 .logo {
     font-size: 24px;
     font-weight: bold;
+    color: #ff6600; 
 }
 
 nav ul {
@@ -41,19 +43,19 @@ nav ul li a {
 .hero {
     text-align: center;
     padding: 50px 20px;
-    background: #f4f4f4;
+    background: #fff; 
 }
-
 .hero h1 {
     font-size: 48px;
     margin: 0 0 20px;
+    color: #333; 
 }
 
 .cta-button {
     display: inline-block;
     padding: 10px 20px;
-    background: #007bff;
-    color: black;
+    background: #ff6600; 
+    color: #fff;
     text-decoration: none;
     border-radius: 5px;
     margin-top: 20px;
@@ -68,13 +70,14 @@ nav ul li a {
 /* Premium Section */
 .premium {
     padding: 50px 20px;
-    background: #fff;
+    background: #ffffff; 
     text-align: center;
 }
 
 .premium h2 {
     font-size: 32px;
     margin-bottom: 20px;
+    color: #333; 
 }
 
 .feature {
@@ -92,18 +95,20 @@ nav ul li a {
 
 .feature p {
     max-width: 600px;
+    color: #666;
 }
 
 /* Features Section */
 .features {
     padding: 50px 20px;
-    background: #f4f4f4;
+    background: #f4f4f4; 
     text-align: center;
 }
 
 .features h2 {
     font-size: 32px;
     margin-bottom: 20px;
+    color: #333; 
 }
 
 .features .feature {
@@ -121,19 +126,20 @@ nav ul li a {
 
 .features .feature p {
     max-width: 600px;
+    color: #666; 
 }
 
 /* Testimonials Section */
 .testimonials {
     padding: 50px 20px;
-    background: #fff;
+    background: #ffffff; 
     text-align: center;
 }
 
 .testimonials h2 {
     font-size: 32px;
     margin-bottom: 20px;
-}
+    color: #333; 
 
 .testimonial {
     margin: 20px 0;
@@ -151,18 +157,20 @@ nav ul li a {
 
 .testimonial p {
     max-width: 600px;
+    color: #666; 
 }
 
 /* FAQ Section */
 .faq {
     padding: 50px 20px;
-    background: #f4f4f4;
+    background: #f4f4f4; 
     text-align: center;
 }
 
 .faq h2 {
     font-size: 32px;
     margin-bottom: 20px;
+    color: #333; 
 }
 
 .faq .question {
@@ -173,16 +181,18 @@ nav ul li a {
 .faq .question h3 {
     font-size: 24px;
     margin-bottom: 10px;
+    color: #333;
 }
 
 .faq .question p {
     max-width: 800px;
+    color: #666; 
 }
 
 /* CTA Section */
 .cta {
     padding: 50px 20px;
-    background: #007bff;
+    background: #ff6600; 
     text-align: center;
     color: #fff;
 }
@@ -190,11 +200,12 @@ nav ul li a {
 .cta h2 {
     font-size: 32px;
     margin-bottom: 20px;
+    color: #fff; 
 }
 
 .cta .cta-button {
-    background: #fff;
-    color: #007bff;
+    background: #ffffff; 
+    color: #ff6600; 
 }
 
 /* Footer */
